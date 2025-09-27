@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <p>este es un parrafo dentro de un div</p>
+        <span>esto es un espan dentro de un div</span>
+    </div>
+    <!---->
+    <h1 class="titulos">mi primer sitio web en codigo</h1>
+    <p>este es un parrafo de ejemplo</p>
+
+    <h2 class="titulos">subtitulos</h2>
+
+
+    <a href=""></a>
+    <img src="" alt="">
+    <!--es una lista ordenada-->
+    <!-- atajo ctrl+k+c-->
+    <ol>
+        <li>batir</li>
+        <li>cocinar</li>
+        <li>comer</li>
+    </ol>
+    <!-- es una lista desordenada -->
+    <ul>
+        <li>agua</li>
+        <li>carne</li>
+        <li>verduras</li>
+    </ul>
+    <!-- enlace absoluto -->
+    <a href="https://google.com">prensa</a>
+
+    <!-- enlace relativo -->
+    <a href="servicios.html">ver servicios</a>
+
+    <!-- enlaces internos | el id se crea con el simbolo # seguido con el nombre de la seccion-->
+    <a href="#testimonios">testimonios</a>
+
+
+    <section id="testimonios">
+        <p>testimonios</p>
+    </section>
+    <!-- videos -->
+    <video src="video.mp4" controls></video>
+    <!-- audio -->
+    <audio src="mensaje.mp3" controls></audio>
+
+    <!-- tablas| para organizar datos o para armar e-mails -->
+
+    <table><!--contenedores de la tabla -->
+        <tr><!--define una fila de una tabla-->
+            <th>nombre</th><!--los encabezados-->
+            <th>ciudad</th>
+            <th>edad</th>
+        </tr>
+        <tr>
+            <td>matias</td><!--las celdas-->
+            <td>pilar</td>
+            <td>35</td>
+        </tr>
+    </table>
+    <!-- formularios -->
+    <form action="/submit" method="post"><!--etiqueta contenedora-->
+        <label for="nombre">nombre</label>
+        <input type="text" name="nombre" id="nombre">
+
+        <label for="password">contraseña</label>
+        <input type="password" name="password" id="password">
+
+        <label for="mensaje">mensaje</label>
+        <textarea name="mensaje" id="mensaje"></textarea>
+
+
+        <label for="genero">genero</label>
+        <input type="radio" name="" id="">
+        <label for="">hombre</label>
+
+        <input type="radio" name="" id="">
+        <label for="">mujer</label>
+
+        <input type="radio" name="" id="">
+        <label for="">prefiero no decirlo</label>
+
+        <label for="suscribe">suscribirse</label>
+        <input type="checkbox" name="suscribe" id="suscribe">
+
+        <!-- menu desplegable -->
+        <label for="pais">pais</label>
+        <select name="" id="">
+            <option value="">brasil</option>
+            <option value="">argentina</option>
+            <option value="">uruguay</option>
+        </select>
+        <input type="submit" value="enviar">
+
+
+    </form>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
