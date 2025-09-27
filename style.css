@@ -1,0 +1,18 @@
+/* media query */
+@media (max-width: 576px) {
+    .custom-style{
+        background-color: red;
+    }
+}
+
+@media (min-width: 577px) and (max-widht: 768px) {
+    .custom-style{
+        background-color:blue;
+    }
+}
+
+@media (min-width: 769px) {
+    .custom-style{
+        background-color: green;
+    }
+}
